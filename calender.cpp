@@ -11,7 +11,8 @@ int main()
         mon-=2;
     int D = year%100;
     int C = year/100;
-
+    if(mon==1 || mon == 2)
+        D-=1;
     int x = date+ int((13*mon-1)/5) + int(C/4) + int(D/4) + D -2*C;
     x=x%7;
     if(x<0)
