@@ -30,20 +30,30 @@ Find the day of the week on (i) 16th July, 1776 (ii) 12th January, 1979.
 
 • Solution:
 (i) 16th July, 1776
+
 f = k + [ (13m – 1)/5] + D+ [D/4] + [C/4] – 2 x C
+
 So here k = 16, m = July = 5, C = 17 and D = 76
+
 f = 16 + [ (13x5 – 1)/5] + 76+ [76/4] + [17/4] – 2 x 17
 [76/4] =[19x4] = 19, [17/4] = [4x4+1] = 4(greatest integer)
 = 16 +12 + 76 +19 +4 – 34 = 93, as it is greater than 7,
+
 so remainder after dividing by 7 = 93/7 =(7x13 + 2) = remainder is 2, so 2 = Tuesday.
 
 
 (ii) 12th January, 1979
+
 f = k + [ (13m – 1)/5] + D+ [D/4] + [C/4] – 2 x C
+
 k = 12, m = 11 = January, for 11 and 12 D should be (D – 1).
+
 For 1979 C = 19 and D = 79, D – 1 = 79 – 1 = 78
+
 f = 12 + [ (13x11 – 1)/5] + 78+ [78/4] + [19/4] – 2 x 19
+
 f = 12 + 28 + 78 +19 +4 – 38 = 103,
+
 dividing by 7 (103/7) = 14x7 + 5 = remainder is 5 i.e. Friday (not Thursday)
 
 
