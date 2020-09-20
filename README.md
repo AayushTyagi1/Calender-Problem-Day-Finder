@@ -27,6 +27,7 @@ as (D –1) instead of D.
 
 ### Example 1:
 Find the day of the week on (i) 16th July, 1776 (ii) 12th January, 1979.
+
 • Solution:
 (i) 16th July, 1776
 f = k + [ (13m – 1)/5] + D+ [D/4] + [C/4] – 2 x C
@@ -35,6 +36,8 @@ f = 16 + [ (13x5 – 1)/5] + 76+ [76/4] + [17/4] – 2 x 17
 [76/4] =[19x4] = 19, [17/4] = [4x4+1] = 4(greatest integer)
 = 16 +12 + 76 +19 +4 – 34 = 93, as it is greater than 7,
 so remainder after dividing by 7 = 93/7 =(7x13 + 2) = remainder is 2, so 2 = Tuesday.
+
+
 (ii) 12th January, 1979
 f = k + [ (13m – 1)/5] + D+ [D/4] + [C/4] – 2 x C
 k = 12, m = 11 = January, for 11 and 12 D should be (D – 1).
@@ -42,6 +45,8 @@ For 1979 C = 19 and D = 79, D – 1 = 79 – 1 = 78
 f = 12 + [ (13x11 – 1)/5] + 78+ [78/4] + [19/4] – 2 x 19
 f = 12 + 28 + 78 +19 +4 – 38 = 103,
 dividing by 7 (103/7) = 14x7 + 5 = remainder is 5 i.e. Friday (not Thursday)
+
+
 ### Example 2
 Find the day of the week on 1st July 2004
 f = k + [ (13m – 1)/5] + D+ [D/4] + [C/4] – 2 x C
@@ -49,17 +54,21 @@ So here k = 1, m = July = 5, C = 20 and D = 04
 f = 1 + [ (13x5 – 1)/5] + 04+ [04/4] + [20/4] – 2 x 20
 = 1 +12 +4 +1 +5 -40
 = 23 – 40 = – 17
+
 Whenever a minus sign appears, discard it and find how much is added
 to the number so that it is divisible by 7 .
 in this case 17 + ( 4) = 21 so 4 odd days i.e., 1st July 2004 is Thursday
+
 ### Example 3
 Today it is Sunday. The day after 64 days will be :
 (a) Sunday (b) Monday (c) Tuesday (d) Friday
 Today is Sunday Day after 64 days = 7×9 +1 = (63 + 1) days will be Monday (b)
+
 ### Example 4
 The year next to 1996 having the same calendar is :
 (a) 2020 (b) 2001 (c) 2024 (d) 2004
 As 1996 is leap year, next year having same calendar is 1996 + 28 = 2024 (c)
+
 ### Example 5
 The day on 8th April of a leap year is Wednesday. The day on April 8 after 3 years
 will be :
